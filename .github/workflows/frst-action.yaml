@@ -17,13 +17,13 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       
-	# Install dependencies
+      # Install dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install pytest
 
-     # Run tests
+      # Run tests
       - name: Run tests
         run: |
           cd src
