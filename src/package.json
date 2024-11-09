@@ -2,11 +2,11 @@
   "name": "my-node-app",
   "version": "1.0.0",
   "description": "A simple Node.js application",
-  "main": "index.js",
+  "main": "frst-action.yaml",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Your Name",
+  "author": "Gurkirpa",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {}
