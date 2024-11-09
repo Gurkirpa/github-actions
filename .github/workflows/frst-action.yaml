@@ -22,7 +22,7 @@ jobs:
         run: npm install package.json  
 
       - name: Install dependencies
-        run: npm init -y
+        run: npm init 
 
       - name: Run tests
         run: npm test
