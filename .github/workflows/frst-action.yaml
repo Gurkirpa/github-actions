@@ -19,10 +19,11 @@ jobs:
           node-version: '14'
 
       - name: Install dependencies
-        run: npm install package.json  
+        run: npm init   
+             npm start
 
       - name: Install dependencies
-        run: npm init 
+        run: npm install package.json  
 
       - name: Run tests
         run: npm test
